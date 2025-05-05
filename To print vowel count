@@ -1,4 +1,4 @@
-### // C++ Program to toggle string
+### // C++ Program to print no of vowels
 #include <cstring>
 #include <iostream>
 using namespace std;
