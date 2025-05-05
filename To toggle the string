@@ -1,0 +1,24 @@
+### // C++ Program to toggle string
+#include <cstring>
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string line="Hello";
+    char arr[]={'a','e','i','o','u'};
+    int count=0;
+    for (int p=0; line[p]!='\0';p++){
+        for(int y=0;arr[y]!='\0';y++){
+            if (line[p]==arr[y]){
+                count++;
+                
+            }
+           
+        }
+    }
+    cout<<"the no of vowels"<<count<<endl;
+}
+
+###output:
+the no of vowels2
